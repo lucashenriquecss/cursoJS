@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(87, 85, 85);
+    font:normal;
+
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    
+    margin: auto;
+
+}
+div{
+    padding: 10px;
+    text-align: center;
+}
+input{
+    text-align: center;
+}
+img{
+    position: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+}
+#image{
+    text-align: center;
+}
+footer{
+    color: white;
+    text-align: center;
+
+}

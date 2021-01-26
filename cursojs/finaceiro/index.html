@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanças</title>
+</head>
+
+<body>
+    <header>
+        <img src="./img/logo.svg" alt="logo Dev Finance">
+        <h1 id="logo">Finance</h1>
+
+    </header>
+    <main class="container">
+        <section id="balance">
+            <h2 class="sr-only">Balanço</h2>
+
+            <div class="card">
+                <h3>
+                    <span>Entradas: </span> 
+                    <img src="./img/money.svg" alt="Image de entrada">
+                </h3>
+                <p>R$5.000,00</p>
+            </div>
+
+            <div class="card">
+                <h3>
+                    <span>Saída: </span>
+                    <img src="./img/saida.svg" alt="Image de entrada">
+                </h3>
+                <p>R$5.000,00</p>
+            </div>
+
+            <div class="card total">
+                <h3> 
+                   <span>Total: </span> 
+                    <img src="./img/total.svg" alt="Image de entrada">
+                </h3>
+                <p>R$5.000,00</p>
+            </div>
+
+        </section>
+        <section id="transactions">
+            <h2 class="sr-only">Transações</h2>
+
+            <a href="#" class="button new"> + Nova Transação</a>
+
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                        <th>Data</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="description">Luz</td>
+                        <td class="expense">R$500,00</td>
+                        <td class="date">23/01/2021</td>
+                        <td>
+                            <img src="./img/menos.svg" alt="Remover transação">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="description">criação</td>
+                        <td class="income">R$ 5000,00</td>
+                        <td class="date">23/01/2021</td>
+                        <td>
+                            <img src="./img/menos.svg" alt="Remover transação">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="description">aluguel</td>
+                        <td class="expense">R$500,00</td>
+                        <td class="date">23/01/2021</td>
+                        <td>
+                            <img src="./img/menos.svg" alt="Remover transação">
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>Finanças</p>
+    </footer>
+
+
+
+</body>
+
+</html>

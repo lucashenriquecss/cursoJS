@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(87, 85, 85);
+    font:normal;
+    background-size: cover;
+
+}
+header{
+    color: white;
+    text-align: center;
+}
+
+
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    box-shadow: 5px 5px 10px black;
+    margin: auto;
+
+}
+div{
+    text-align: center;
+}
+
+ 
+img{
+    position: center;
+    bottom: 0;
+    width: 100%;
+    align-items:center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+#msg{
+    text-align: center;
+}
+
+
+
+footer{
+    color: white;
+    text-align: center;
+
+}
+

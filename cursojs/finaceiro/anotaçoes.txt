@@ -1,0 +1,6 @@
+separar  as partes em header
+main
+e footer
+ header onde vai esta presente os cards 
+ o main onde vai a tabela
+  e o footer rodape
