@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(3, 116, 116);
+
+}
+header{
+    color: chartreuse;
+    text-align: center;
+
+}
+
+section{
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+
+}
+footer{
+    text-align: center;
+
+}
