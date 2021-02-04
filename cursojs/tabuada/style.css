@@ -16,6 +16,10 @@ section{
     border-radius: 10px;
     box-shadow: 3px 3px 10px black;
 
+
+}
+#res{
+    display: inline;
 }
 footer{
     text-align: center;

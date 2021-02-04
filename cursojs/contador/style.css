@@ -7,7 +7,12 @@ header{
     text-align: center;
 
 }
+#content{
+    align-content: center;
+    padding: 5px;
+    margin: 5px;
 
+}
 section{
     margin: auto;
     background-color: white;

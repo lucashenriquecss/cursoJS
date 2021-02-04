@@ -4,14 +4,25 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contador</title>
 </head>
 <body>
     <header>Contador</header>
     <section>
-        <div></div>
-        <div></div>
+        <div id="content">
+            <p>inicio: <input type="number" id="inicio"></p>
+            <p>Fim:    <input type="number" id="fim"></p>
+            <p>passo:  <input type="number" name="" id="passo"></p>
+            
+            <button onclick="enviar()"> Enviar </button>
+        </div>
+        resultado:
+        <div id="res">
+        
+        </div>
+
     </section>
     <footer>@Contador</footer>
+    <script src="contador.js"></script>
 </body>
 </html>
