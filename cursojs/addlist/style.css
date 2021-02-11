@@ -1,0 +1,17 @@
+body{
+    background-color: gray;
+}
+header{
+    text-align: center;
+}
+section{
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+}
+#select{
+    width: 50rem;
+}

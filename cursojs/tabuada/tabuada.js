@@ -8,8 +8,7 @@ function tabuada(){
         let n =Number(num.value)
         for(let count=1; count<=10; count++){
             res.innerHTML=`${n} * ${count} = ${n * count}`
-        }
-
+        }              
     }
    
 }
